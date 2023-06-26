@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="525a7ed4-9289-4714-849d-a3718ea24682" name="Changes" comment="add structure WIP">
-      <change afterPath="$PROJECT_DIR$/src/project/recipes/RecipeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/recipes/records/MeasureType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="525a7ed4-9289-4714-849d-a3718ea24682" name="Changes" comment="add content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/data/recipes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/data/weeks.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/recipes/RecipePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/recipes/RecipePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/records/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/recipes/records/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/records/Measurements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/recipes/records/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/recipes/records/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/ui/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/users/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/users/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/users/dietician/Dietician.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/users/dietician/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/utils/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/utils/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/recipes/records/MeasureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/recipes/records/MeasureType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/utils/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/utils/FileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +58,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/olgapinchuk/.bitnami/stackman/machines/xampp/volumes/root/htdocs/ Novare/backend_course/Foodmora&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/olgapinchuk/.bitnami/stackman/machines/xampp/volumes/root/htdocs/ Novare/backend_course/Foodmora/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
@@ -140,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687025176069</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add content">
+      <created>1687784116529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687784116529</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add content">
+      <created>1687784467899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687784467899</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="add structure WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="add structure WIP" />
+    <MESSAGE value="add content" />
+    <option name="LAST_COMMIT_MESSAGE" value="add content" />
   </component>
 </project>

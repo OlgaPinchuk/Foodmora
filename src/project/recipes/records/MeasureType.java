@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public enum MeasureType {
     QUANTITY("pc"),
-    LITER("l"),
+    LITERS("l"),
     KILOGRAM("kg");
 
     private String abbreviation;

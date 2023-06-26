@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class RecipePool {
     private ArrayList<Recipe> recipes;
     private FileManager fileManager;
-    String fileName;
+    private String fileName;
 
     public RecipePool() {
         this.fileName = "src/project/data/recipes.txt";

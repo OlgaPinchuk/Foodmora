@@ -1,9 +1,9 @@
 package project;
 
 import project.users.UserRole;
+import project.utils.Menu;
 
 public class View {
-
     public View() {
         showStartScreen();
         showUserRoleOptions();
@@ -13,10 +13,6 @@ public class View {
         printProjectTitle();
     }
 
-    private void printProjectTitle() {
-        System.out.println("=== Recipe Manager ==");
-        System.out.println();
-    }
 
     public void showUserRoleOptions() {
         System.out.println("Please choose the user type:");
@@ -29,5 +25,21 @@ public class View {
         }
 
         System.out.println("Selected user: ");
+    }
+
+    public void showInvalidOptionMessage() {
+        Menu.printWarningMessage("Please chose the right option");
+    }
+    public void showNumericErrorMessage() {
+        Menu.printWarningMessage("The input is not valid");
+    }
+
+    public void printMessage(String message) {
+        System.out.println(message);
+    }
+
+    private void printProjectTitle() {
+        System.out.println("=== Recipe Manager ==");
+        System.out.println();
     }
 }

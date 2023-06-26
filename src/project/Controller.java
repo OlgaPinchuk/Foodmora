@@ -1,9 +1,6 @@
 package project;
 
-import project.users.dietician.Dietician;
-import project.users.Patient;
-import project.users.User;
-import project.users.UserRole;
+import project.users.*;
 
 import java.util.Scanner;
 
@@ -17,7 +14,6 @@ public class Controller {
     public Controller(Model model, View view) {
         this.model = model;
         this.view = view;
-
         this.scanner = new Scanner(System.in);
     }
 
@@ -31,16 +27,19 @@ public class Controller {
             switch(selectedUserRole) {
                 case PATIENT -> user = new Patient();
                 case DIETICIAN -> user = new Dietician();
-                default -> System.out.println("Please chose the right option");
+                default -> view.showInvalidOptionMessage();
             }
-            user.showMainMenu();
-
         }
         catch (NumberFormatException e) {
-            System.out.println("The error is occurred: " + e.getMessage());
-            System.out.println("Please enter the numeric value");
+            view.showNumericErrorMessage();
+            view.printMessage("Please try again");
+            requestUserRole();
         }
-
-        requestUserRole();
+        catch(ArrayIndexOutOfBoundsException exception) {
+            view.showInvalidOptionMessage();
+            view.printMessage("Please try again");
+            requestUserRole();
+        }
     }
 }
+
